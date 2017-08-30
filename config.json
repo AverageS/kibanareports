@@ -1,0 +1,28 @@
+{ "pages":[
+  {
+    "url": "http://0.0.0.0:5601/app/kibana#/dashboard/ca460a50-8cb0-11e7-a2bb-9b97b18ab1d8?embed=true&_g=()",
+    "title": "Заголовок 1",
+    "description": "За неделю"
+  },
+  {
+    "url": "http://0.0.0.0:5601/app/kibana#/dashboard/e05c6b70-8cb2-11e7-a2bb-9b97b18ab1d8?embed=true&_g=()",
+    "title": "Заголовок 2 ",
+    "description": "За неделю"
+  },
+  {
+    "url": "http://0.0.0.0:5601/app/kibana#/dashboard/233acc20-8cb3-11e7-a2bb-9b97b18ab1d8?embed=true&_g=()",
+    "title": "Заголовок 3",
+    "description": "За неделю"
+  }
+
+],
+  "smtp_server": "smtp.yandex.ru",
+  "phantom_url": "http://phantom:8000",
+  "email_subject": "Регулярный отчет",
+  "email_text": "Регулярный отчет со статистикой по",
+  "email_from": "email@fr.om",
+  "email_password":"password",
+  "time_interval": 120,
+  "email_to": "email@t.o",
+  "pdf_css": "@page { size: A3; margin: 1cm }"
+}

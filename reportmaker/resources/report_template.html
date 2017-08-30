@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    {% for pic in pics %}
+    <h1>{{ pic.title }}</h1>
+    <div>
+        <img src="data:image/png;base64, {{ pic.pic }}" style="max-width: 100%" alt="Red dot" />
+    </div>
+    <p>{{ pic.description }}</p>
+    <p style="page-break-before: always" ></p>
+    {% endfor %}
+</body>
+</html>

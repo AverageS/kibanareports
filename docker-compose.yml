@@ -1,0 +1,14 @@
+version: '2'
+services:
+  phantom:
+    build: phantomscreener
+    restart: always
+    network_mode: host
+
+  reporter:
+    build: reportmaker
+    restart: always
+    network_mode: host
+    volumes:
+      - /path/to/config.json:/resources/config.json
+
