@@ -1,4 +1,5 @@
-{ "pages":[ #list of dicts, each one represents one page in the report, each page is a screenshot of kibana dashboard
+{  
+  "pages":[
   {
     "url": "http://0.0.0.0:5601/app/kibana#/dashboard/ca460a50-8cb0-11e7-a2bb-9b97b18ab1d8?embed=true&_g=()",
     "title": "Заголовок 1",
